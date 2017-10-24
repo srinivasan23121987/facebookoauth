@@ -1,5 +1,15 @@
 # Facebook-Oauth
 
+GIT config Global
+
+git config user.name her_username
+git config user.email her_email
+git commit --amend --reset-author
+git config --global credential.helper cache
+git config --global credential.https://github.com.username foo
+git clone https://github.com/foo/repository.git
+
+
 GIT-Credential-remove
 
 start the ssh-agent in the background
